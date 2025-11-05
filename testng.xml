@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="tests.Buttons"/>
+      <class name="tests.AlertsExapmle"/>
+      <class name="tests.Input_Practice"/>
+      <class name="tests.RadioAndCheckBox"/>
+      <class name="tests.Dropdowns"/>
+      <class name="tests.FramesExample"/>
+      <class name="tests.Windows"/>
+      <class name="tests.ElementsPractce"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
