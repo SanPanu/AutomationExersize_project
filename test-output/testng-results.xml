@@ -1,204 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-05T20:06:13 IST" name="Suite" finished-at="2025-11-05T20:06:26 IST" duration-ms="12733">
+  <suite started-at="2025-11-08T09:24:33 IST" name="Default suite" finished-at="2025-11-08T09:24:44 IST" duration-ms="11424">
     <groups>
     </groups>
-    <test started-at="2025-11-05T20:06:13 IST" name="Test" finished-at="2025-11-05T20:06:26 IST" duration-ms="12733">
-      <class name="tests.ElementsPractce">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ElementsPractce@4c12331b]" started-at="2025-11-05T20:06:20 IST" name="setup" finished-at="2025-11-05T20:06:24 IST" duration-ms="3453" status="PASS">
+    <test started-at="2025-11-08T09:24:33 IST" name="Default test" finished-at="2025-11-08T09:24:44 IST" duration-ms="11424">
+      <class name="tests.DragAndDropElementToTarget">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.DragAndDropElementToTarget@368f2016]" started-at="2025-11-08T09:24:33 IST" name="setup" finished-at="2025-11-08T09:24:35 IST" duration-ms="2113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyGitHubUser()[pri:0, instance:tests.ElementsPractce@4c12331b]" started-at="2025-11-05T20:06:24 IST" name="verifyGitHubUser" finished-at="2025-11-05T20:06:25 IST" duration-ms="1166" status="PASS">
+        <test-method signature="DrandAndDroptheElement()[pri:0, instance:tests.DragAndDropElementToTarget@368f2016]" started-at="2025-11-08T09:24:35 IST" name="DrandAndDroptheElement" finished-at="2025-11-08T09:24:44 IST" duration-ms="9179" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGitHubUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ElementsPractce@4c12331b]" started-at="2025-11-05T20:06:25 IST" name="tearDown" finished-at="2025-11-05T20:06:25 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.ElementsPractce -->
-      <class name="tests.Input_Practice">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Input_Practice@2d1ef81a]" started-at="2025-11-05T20:06:13 IST" name="setup" finished-at="2025-11-05T20:06:19 IST" duration-ms="6116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="input()[pri:0, instance:tests.Input_Practice@2d1ef81a]" started-at="2025-11-05T20:06:19 IST" name="input" finished-at="2025-11-05T20:06:21 IST" duration-ms="2183" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[ortonikc expected:<ortonik> but was:<Not Found correct text>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: ortonikc expected:<ortonik> but was:<Not Found correct text>
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-at tests.Input_Practice.input(Input_Practice.java:18)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- input -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Input_Practice@2d1ef81a]" started-at="2025-11-05T20:06:21 IST" name="tearDown" finished-at="2025-11-05T20:06:22 IST" duration-ms="97" status="PASS">
+        </test-method> <!-- DrandAndDroptheElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DragAndDropElementToTarget@368f2016]" started-at="2025-11-08T09:24:44 IST" name="tearDown" finished-at="2025-11-08T09:24:44 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.Input_Practice -->
-      <class name="tests.AlertsExapmle">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AlertsExapmle@22ff4249]" started-at="2025-11-05T20:06:13 IST" name="setup" finished-at="2025-11-05T20:06:19 IST" duration-ms="5467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="HandlingDifferentAlerts()[pri:0, instance:tests.AlertsExapmle@22ff4249]" started-at="2025-11-05T20:06:19 IST" name="HandlingDifferentAlerts" finished-at="2025-11-05T20:06:19 IST" duration-ms="126" status="FAIL">
-          <exception class="org.openqa.selenium.NoAlertPresentException">
-            <message>
-              <![CDATA[no such alert
-  (Session info: chrome=142.0.7444.60)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e696bafa3edef8c645dde91205141ec, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: /var/folders/x_/zrwq44fd727...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49818}, goog:processID: 1547, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49818/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e696bafa3edef8c645dde91205141ec]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=142.0.7444.60)
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5e696bafa3edef8c645dde91205141ec, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: /var/folders/x_/zrwq44fd727...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49818}, goog:processID: 1547, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49818/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5e696bafa3edef8c645dde91205141ec
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1175)
-at pages.AlertsPage.clcikAcceptAlert(AlertsPage.java:26)
-at tests.AlertsExapmle.HandlingDifferentAlerts(AlertsExapmle.java:16)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HandlingDifferentAlerts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AlertsExapmle@22ff4249]" started-at="2025-11-05T20:06:19 IST" name="tearDown" finished-at="2025-11-05T20:06:19 IST" duration-ms="95" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.AlertsExapmle -->
-      <class name="tests.Windows">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Windows@1165b38]" started-at="2025-11-05T20:06:19 IST" name="setup" finished-at="2025-11-05T20:06:24 IST" duration-ms="4965" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="handlingWindows()[pri:0, instance:tests.Windows@1165b38]" started-at="2025-11-05T20:06:24 IST" name="handlingWindows" finished-at="2025-11-05T20:06:26 IST" duration-ms="1973" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlingWindows -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Windows@1165b38]" started-at="2025-11-05T20:06:26 IST" name="tearDown" finished-at="2025-11-05T20:06:26 IST" duration-ms="89" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.Windows -->
-      <class name="tests.FramesExample">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FramesExample@5b12b668]" started-at="2025-11-05T20:06:18 IST" name="setup" finished-at="2025-11-05T20:06:23 IST" duration-ms="4504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="handleframes()[pri:0, instance:tests.FramesExample@5b12b668]" started-at="2025-11-05T20:06:23 IST" name="handleframes" finished-at="2025-11-05T20:06:24 IST" duration-ms="932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleframes -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FramesExample@5b12b668]" started-at="2025-11-05T20:06:24 IST" name="tearDown" finished-at="2025-11-05T20:06:24 IST" duration-ms="103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.FramesExample -->
-      <class name="tests.Dropdowns">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Dropdowns@327514f]" started-at="2025-11-05T20:06:13 IST" name="setup" finished-at="2025-11-05T20:06:19 IST" duration-ms="5823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="handlingDifferentDropdowns()[pri:0, instance:tests.Dropdowns@327514f]" started-at="2025-11-05T20:06:19 IST" name="handlingDifferentDropdowns" finished-at="2025-11-05T20:06:21 IST" duration-ms="2256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handlingDifferentDropdowns -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Dropdowns@327514f]" started-at="2025-11-05T20:06:21 IST" name="tearDown" finished-at="2025-11-05T20:06:21 IST" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.Dropdowns -->
-      <class name="tests.RadioAndCheckBox">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RadioAndCheckBox@4c402120]" started-at="2025-11-05T20:06:13 IST" name="setup" finished-at="2025-11-05T20:06:16 IST" duration-ms="2883" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="handleradioAndCheckBox()[pri:0, instance:tests.RadioAndCheckBox@4c402120]" started-at="2025-11-05T20:06:16 IST" name="handleradioAndCheckBox" finished-at="2025-11-05T20:06:18 IST" duration-ms="1984" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleradioAndCheckBox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RadioAndCheckBox@4c402120]" started-at="2025-11-05T20:06:18 IST" name="tearDown" finished-at="2025-11-05T20:06:18 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.RadioAndCheckBox -->
-      <class name="tests.Buttons">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.Buttons@48f2bd5b]" started-at="2025-11-05T20:06:13 IST" name="setup" finished-at="2025-11-05T20:06:19 IST" duration-ms="5694" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clicking_differetn_Button()[pri:0, instance:tests.Buttons@48f2bd5b]" started-at="2025-11-05T20:06:19 IST" name="clicking_differetn_Button" finished-at="2025-11-05T20:06:20 IST" duration-ms="1120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clicking_differetn_Button -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Buttons@48f2bd5b]" started-at="2025-11-05T20:06:20 IST" name="tearDown" finished-at="2025-11-05T20:06:20 IST" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.Buttons -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- tests.DragAndDropElementToTarget -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
