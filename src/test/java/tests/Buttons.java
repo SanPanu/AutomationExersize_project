@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import base.Basetest;
+
 import pages.ButtonPage;
 
 public class Buttons extends Basetest

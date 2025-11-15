@@ -3,7 +3,7 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import base.Basetest;
+
 import pages.DraggablePage;
 
 public class DragTest extends Basetest

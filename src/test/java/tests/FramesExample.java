@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
-import base.Basetest;
+
 import pages.HandleframesPage;
 
 public class FramesExample extends Basetest

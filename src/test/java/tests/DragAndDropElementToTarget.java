@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
-import base.Basetest;
+
 import pages.DragElementToTarget;
 
 public class DragAndDropElementToTarget extends Basetest
@@ -13,7 +13,6 @@ public class DragAndDropElementToTarget extends Basetest
 		DragElementToTarget DT=new DragElementToTarget(driver);
 		DT.clickDropCard();
 		DT.dragAndDropTheElement();
-		
 		Thread.sleep(4000);
 	
 	}

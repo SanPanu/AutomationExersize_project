@@ -3,7 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
-import base.Basetest;
+
 import pages.DropdownsPage;
 
 public class Dropdowns extends Basetest

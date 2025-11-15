@@ -5,7 +5,7 @@ import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import org.testng.Assert;
-import base.Basetest;
+
 import pages.InputPage;
 
 public class Input_Practice extends Basetest
